@@ -45,13 +45,13 @@
 # print("Number of letters in your name: " + str(len(input("Enter your name "))))
 
 # Mathematical operations
-print(123 + 456)
-print(7 - 3)
-print(3 * 2)
-print(6 / 3) # returns a floating point number
-print(6//3) # returns an integer value
-print(2 ** 3)
-
+# print(123 + 456)
+# print(7 - 3)
+# print(3 * 2)
+# print(6 / 3) # returns a floating point number
+# print(6//3) # returns an integer value
+# print(2 ** 3)
+#
 # PEMDAS: calculates Left to Right
 # ()
 # **
@@ -59,4 +59,19 @@ print(2 ** 3)
 # /
 # +
 # -
-print(3 * 3 / 3 + 3 - 3)
+# print(3 * 3 / 3 + 3 - 3)
+
+# score = 0
+
+# score += 1
+# score -= 1
+# score *= 1
+# score /= 1
+
+# f-strings
+
+score = 0
+height = 1.0
+is_winning = True
+
+print(f"Your score is {score}")
