@@ -6,8 +6,8 @@ height = int(input("What is your height? "))
 price = 0
 if height >= 120:
     age = int(input("how old are you? "))
-    if age > 64:
-        print("Senior tickets are free")
+    if age >= 45 and age <= 55:
+        print("everything will be okay. Here is a free ride on us!")
         price += 0
     if age <= 12:
         print("Child tickets are $5")
